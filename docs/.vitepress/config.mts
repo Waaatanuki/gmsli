@@ -2,13 +2,12 @@ import { webUpdateNotice } from '@plugin-web-update-notification/vite'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'GM Sli',
   description: 'About GM',
   base: '/gmsli/',
   head: [
-    ['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/gmsli/favicon.ico' }],
   ],
   vite: {
     plugins: [
@@ -24,6 +23,7 @@ export default defineConfig({
       {
         items: [
           { text: '背景介绍', link: '/intro' },
+          { text: '实施方案', link: '/implement' },
         ],
       },
     ],
