@@ -22,31 +22,8 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: '开始',
         items: [
-          { text: '为什么玩土', link: '/begining/why' },
-          { text: '简介', link: '/begining/introduction' },
-        ],
-      },
-      {
-        text: '基础',
-        items: [
-          { text: '角色', link: '/essential/character' },
-          { text: '武器', link: '/essential/weapon' },
-          { text: '召唤', link: '/essential/summon' },
-        ],
-      },
-      {
-        text: '实战构筑',
-        items: [
-          { text: '通常周回', link: '/build/common' },
-          { text: '沙盒', link: '/build/sandbox' },
-          { text: '猎金', link: '/build/goldBrick' },
-          { text: '猎砂', link: '/build/sandglass' },
-          { text: '古战场', link: '/build/guildWar' },
-          { text: '极巴', link: '/build/superBahamut' },
-          { text: '天元', link: '/build/tengen' },
-          { text: '极法', link: '/build/rushizero' },
+          { text: '背景介绍', link: '/intro' },
         ],
       },
     ],
