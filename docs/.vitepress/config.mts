@@ -4,20 +4,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'The Earth',
-  description: 'About Earth',
-  base: '/The-Earth/',
+  title: 'GM Sli',
+  description: 'About GM',
+  base: '/gmsli/',
   head: [
     ['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }],
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' }],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-QHXEE5Y30K');`,
-    ],
   ],
   vite: {
     plugins: [
@@ -26,18 +17,10 @@ export default defineConfig({
     ],
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
     ],
     sidebar: [
-      // {
-      //   text: '例子',
-      //   items: [
-      //     { text: 'api', link: '/api-examples' },
-      //     { text: 'md', link: '/markdown-examples' },
-      //   ]
-      // },
       {
         text: '开始',
         items: [
